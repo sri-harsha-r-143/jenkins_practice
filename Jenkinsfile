@@ -17,7 +17,7 @@ pipeline {
                     checkout scm: [
                         $class: 'GitSCM', 
                         branches: [[name: '*/master']], // Change 'master' to your desired branch if needed
-                        userRemoteConfigs: [[url: 'https://github.com/munipravy/counterapp.git']]
+                        userRemoteConfigs: [[url: 'https://github.com/sri-harsha-r-143/jenkins_practice.git']]
                     ]
                 }
             }
